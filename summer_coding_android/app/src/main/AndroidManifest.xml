@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SummerCodingAndroid">
         <activity
+            android:name=".yesxon.YesxonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".leesc0893.Leesc0893Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gok5959.Gok5959Activity"
+            android:exported="false" />
+        <activity
+            android:name=".d11210920.D11210920Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ckgod.CkgodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jjjoonngg.JjjoonnggActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
