@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="clear">#00ff0000</color>
+    <color name="clearBlack">#80000000</color>
+    <color name="dark_gray">#55595c</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#E50914</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Summer coding android</string>
+    <string name="ckgod">창국</string>
+    <string name="d11210920">동하</string>
+    <string name="gok5959">혁준</string>
+    <string name="jjjoonngg">종신</string>
+    <string name="leesc0839">승철</string>
+    <string name="yesxon">예선</string>
+    <style name="Theme.SummerCodingAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.TitleBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

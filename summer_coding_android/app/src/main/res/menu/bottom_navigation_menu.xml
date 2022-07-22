@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnBottomHome"
+        android:enabled="true"
+        android:icon="@drawable/home_bottom"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/btnBottomToBeReleased"
+        android:enabled="true"
+        android:icon="@drawable/tobereleased_bottom"
+        android:title="공개 예정" />
+
+    <item
+        android:id="@+id/btnBottomSearch"
+        android:enabled="true"
+        android:icon="@drawable/search_bottom"
+        android:title="검색" />
+
+    <item
+        android:id="@+id/btnBottomDownloaded"
+        android:enabled="true"
+        android:icon="@drawable/download_bottom"
+        android:title="저장한 콘텐츠 목록" />
+
+</menu>

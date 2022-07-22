@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/appBarWifi"
+        android:icon="@drawable/wifi"
+        app:showAsAction="ifRoom"
+        android:title="미러링"/>
+    <item
+        android:id="@+id/appBarUser"
+        android:icon="@drawable/user"
+        app:showAsAction="ifRoom"
+        android:title="사용자"/>
+
+</menu>
