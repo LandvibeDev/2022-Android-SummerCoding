@@ -5,6 +5,11 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
+    <color name="black">#FF000000</color>-
     <color name="white">#FFFFFFFF</color>
+    <color name="dh_mint_green">#6EA7BB</color>
+    <color name="dh_green">#5880A4</color>
+    <color name="dh_dark_green">#556096</color>
+    <color name="dh_pink">#F23877</color>
+    <color name="dh_agreeColor">#80B1C0</color>
 </resources>

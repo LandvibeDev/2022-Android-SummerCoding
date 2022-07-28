@@ -7,5 +7,13 @@
     <string name="yesxon">예선</string>
     <string name="ckgod">창국</string>
     <string name="jjjoonngg">종신</string>
-
+    <string name="dh_book">고속버스 예매</string>
+    <string name="dh_change">예매 확인 및 변경</string>
+    <string name="dh_approval_time">도착시간안내</string>
+    <string name="dh_Freepass_string">프리패스\n 정기권</string>
+    <string name="dh_easybooking_string">간편예매</string>
+    <string name="dh_timetable_string">시간표조회</string>
+    <string name="dh_yanolza_string">야놀자예약</string>
+    <string name="dh_mypage_string">마이페이지</string>
+    <string name="dh_agreement_string">개인정보 처리방침 약관 개정 안내</string>
 </resources>
