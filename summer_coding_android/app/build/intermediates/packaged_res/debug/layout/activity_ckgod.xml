@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ckgod.CkgodActivity"
+    android:background="@color/kakao_blue"
+    android:paddingHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ckgod"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clAccount"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/kakao_yellow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        android:layout_marginTop="20dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvPassBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passbook_name"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_number"
+            android:textSize="10sp"
+            android:textColor="@color/white_gray"
+            app:layout_constraintTop_toBottomOf="@id/tvPassBookName"
+            app:layout_constraintStart_toStartOf="@id/tvPassBookName"/>
+
+        <TextView
+            android:id="@+id/tvTransfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/transfer"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/divider"/>
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0.3dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toTopOf="@id/tvTransfer"
+            app:layout_constraintBottom_toBottomOf="@id/tvTransfer"
+            app:layout_constraintStart_toEndOf="@id/tvTransfer"
+            app:layout_constraintEnd_toStartOf="@id/tvUsageCard"/>
+        <TextView
+            android:id="@+id/tvUsageCard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/card_usage_detail"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/divider"/>
+
+        <TextView
+            android:id="@+id/tvMainMoneyCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:includeFontPadding="false"
+            android:text="100,000,000,000"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintEnd_toStartOf="@id/tvMainMoneyUnit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMainMoneyUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/won_unit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvMainMoneyCount"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clSafeBox"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/kakao_yellow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clAccount"
+        android:layout_marginTop="12dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvSafeBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/safe_box"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clGroup"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/kakao_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clSafeBox"
+        android:layout_marginTop="12dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clAddGroup"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/kakao_dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clGroup"
+        android:layout_marginTop="12dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_screen"
+        android:textColor="@color/white_gray"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clAddGroup"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

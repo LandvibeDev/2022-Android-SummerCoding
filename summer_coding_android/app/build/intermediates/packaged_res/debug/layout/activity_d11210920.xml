@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d11210920.D11210920Activity"
+    android:layout_margin="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/dh_upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/dh_uppertool"
+        >
+
+    </ImageView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dh_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/dh_upper"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dh_text_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/dh_hometext"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dh_text_jasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/dh_text_home"
+            app:layout_constraintEnd_toStartOf="@id/dh_text_hyetack"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="자산"
+            android:textSize="30dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dh_text_hyetack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/dh_text_jasan"
+            app:layout_constraintEnd_toStartOf="@id/dh_text_all"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="혜택"
+            android:textSize="30dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dh_text_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/dh_text_hyetack"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="전체"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="150dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dh_layout1"
+        android:paddingBottom="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <ImageView
+                android:id="@+id/dh_imgtop_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/dh_imgtop"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/dh_gray"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/layout3"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout2"
+        >
+        <TextView
+            android:id="@+id/dh_kakaopay_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="카카오페이머니"
+            android:textSize="15dp"
+            android:textColor="@color/dh_kakaopaymoney"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/dh_kakaopay_money"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/dh_howmuch"
+            android:text="10000000"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/dh_kakaopay_money"
+            app:layout_constraintStart_toEndOf="@id/dh_howmuch"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/dh_won"
+            android:text="원"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/dh_send"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="송금"
+            android:textColor="@color/white"
+            android:background="@color/dh_button"
+            android:textStyle="bold"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/dh_refill"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dh_send"
+            android:text="충전"
+            android:textColor="@color/white"
+            android:background="@color/dh_button"
+            android:textStyle="bold"
+            android:layout_marginEnd="5dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout3">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/under"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/dh_undertool">
+
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

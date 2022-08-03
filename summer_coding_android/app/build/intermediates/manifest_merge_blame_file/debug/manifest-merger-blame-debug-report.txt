@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.co.landvibe.summer_coding_android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:5:5-45:19
+12        android:allowBackup="true"
+12-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\김동하\.gradle\caches\transforms-3\0a679862f6c55d82fb9a949f1fd4603f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.SummerCodingAndroid" >
+21-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:11:9-57
+22        <activity
+22-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:12:9-14:40
+23            android:name="kr.co.landvibe.summer_coding_android.d11210920.D112109202Activity"
+23-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:13:13-57
+24            android:exported="false" />
+24-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:14:13-37
+25        <activity
+25-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="kr.co.landvibe.summer_coding_android.ckgod.Ckgod2Activity"
+26-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:16:13-49
+27            android:exported="false" />
+27-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:17:13-37
+28        <activity
+28-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="kr.co.landvibe.summer_coding_android.yesxon.YesxonActivity"
+29-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:19:13-50
+30            android:exported="false" />
+30-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:21:9-23:40
+32            android:name="kr.co.landvibe.summer_coding_android.leesc0893.Leesc0893Activity"
+32-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:22:13-56
+33            android:exported="false" />
+33-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:23:13-37
+34        <activity
+34-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:24:9-26:40
+35            android:name="kr.co.landvibe.summer_coding_android.gok5959.Gok5959Activity"
+35-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:25:13-52
+36            android:exported="false" />
+36-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:26:13-37
+37        <activity
+37-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:27:9-29:40
+38            android:name="kr.co.landvibe.summer_coding_android.d11210920.D11210920Activity"
+38-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:28:13-56
+39            android:exported="false" />
+39-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:29:13-37
+40        <activity
+40-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:30:9-32:40
+41            android:name="kr.co.landvibe.summer_coding_android.ckgod.CkgodActivity"
+41-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:31:13-48
+42            android:exported="false" />
+42-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:32:13-37
+43        <activity
+43-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:33:9-35:40
+44            android:name="kr.co.landvibe.summer_coding_android.jjjoonngg.JjjoonnggActivity"
+44-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:34:13-56
+45            android:exported="false" />
+45-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:35:13-37
+46        <activity
+46-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:36:9-44:20
+47            android:name="kr.co.landvibe.summer_coding_android.MainActivity"
+47-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:37:13-41
+48            android:exported="true" >
+48-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:38:13-36
+49            <intent-filter>
+49-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:39:13-43:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:40:17-69
+50-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:40:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:42:17-77
+52-->D:\new\summer_coding_android\app\src\main\AndroidManifest.xml:42:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+58            android:authorities="kr.co.landvibe.summer_coding_android.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\김동하\.gradle\caches\transforms-3\80b528038d14456a13dc877d02defa8f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\김동하\.gradle\caches\transforms-3\a711bc5df5a379db74c9c6d9cac91024\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\김동하\.gradle\caches\transforms-3\a711bc5df5a379db74c9c6d9cac91024\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\김동하\.gradle\caches\transforms-3\a711bc5df5a379db74c9c6d9cac91024\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
