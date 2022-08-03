@@ -8,4 +8,17 @@
     <string name="ckgod">창국</string>
     <string name="jjjoonngg">종신</string>
 
+    <!-- CKGOD -->
+    <string name="passbook_name">고창국의 통장</string>
+    <string name="account_number">3333-10-576-2551</string>
+    <string name="transfer">이체</string>
+    <string name="card_usage_detail">카드이용내역</string>
+    <string name="safe_box">세이프박스</string>
+    <string name="group_name">Alcohol Pro</string>
+    <string name="gruop_account_number">7979-42-42458</string>
+    <string name="edit_screen">화면 편집</string>
+    <string name="won_unit">원</string>
+
+    <string name="dh_hometext"><u>홈</u></string>
+
 </resources>

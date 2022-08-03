@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="dh_gray">#444b53</color>
+    <color name="dh_kakaopaymoney">#a2a5ab</color>
+    <color name="dh_button">#606a74</color>
 </resources>
