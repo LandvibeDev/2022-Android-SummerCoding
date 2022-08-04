@@ -2,6 +2,8 @@ package kr.co.landvibe.summer_coding_android.leesc0893
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
 import kr.co.landvibe.summer_coding_android.R
 
 class Leesc0893Activity : AppCompatActivity() {
