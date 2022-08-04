@@ -1,9 +1,312 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yesxon.YesxonActivity">
+    tools:context=".yesxon.YesxonActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="20dp"
+        android:text="   SILVER"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/barcodeImage"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/barcode"
+        app:layout_constraintTop_toTopOf="@id/grade"
+        app:layout_constraintRight_toRightOf="@id/grade"
+        android:layout_marginEnd="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/menuImage"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/menu"
+        app:layout_constraintTop_toTopOf="@id/grade"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="박예선님, 상큼달콤한 여름 스무디를 즐겨보세요"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8sp"
+        app:layout_constraintTop_toBottomOf="@id/grade"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+    //회색 레이아웃
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:background="@color/hollys_gray"
+        app:layout_constraintTop_toBottomOf="@id/delivery"
+        >
+
+        //할리스몰
+        <TextView
+            android:id="@+id/hollysMallText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="할리스 몰"
+            app:layout_constraintBottom_toTopOf="@id/banner"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="40dp"
+            />
+        <ImageView
+            android:id="@+id/hollysMallImage"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:src="@drawable/hollys_mall"
+            app:layout_constraintBottom_toTopOf="@id/hollysMallText"
+            app:layout_constraintStart_toStartOf="@id/hollysMallText"
+            app:layout_constraintEnd_toEndOf="@id/hollysMallText"
+            android:layout_marginBottom="5dp"
+            />
+
+        //스탬프
+        <TextView
+            android:id="@+id/stampText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="3/12"
+            app:layout_constraintBottom_toTopOf="@id/hollysMallImage"
+            app:layout_constraintStart_toStartOf="@id/hollysMallImage"
+            app:layout_constraintEnd_toEndOf="@id/hollysMallImage"
+            android:layout_marginBottom="40dp"
+            />
+        <ImageView
+            android:id="@+id/stampImage"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:src="@drawable/stamp"
+            app:layout_constraintBottom_toTopOf="@id/stampText"
+            app:layout_constraintStart_toStartOf="@id/stampText"
+            app:layout_constraintEnd_toEndOf="@id/stampText"
+            />
+
+        //매장
+        <TextView
+            android:id="@+id/storeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="매장"
+            app:layout_constraintBottom_toBottomOf="@id/hollysMallText"
+            app:layout_constraintStart_toEndOf="@id/hollysMallText"
+            android:layout_marginStart="50dp"
+            />
+        <ImageView
+            android:id="@+id/storeImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/store"
+            app:layout_constraintBottom_toTopOf="@id/storeText"
+            app:layout_constraintStart_toStartOf="@id/storeText"
+            app:layout_constraintEnd_toEndOf="@id/storeText"
+            android:layout_marginBottom="5dp"
+            />
+
+        //할리스 카드
+        <TextView
+            android:id="@+id/cardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="할리스 카드"
+            app:layout_constraintBottom_toBottomOf="@id/stampText"
+            app:layout_constraintStart_toStartOf="@id/storeText"
+            app:layout_constraintEnd_toEndOf="@id/storeText"
+            />
+        <ImageView
+            android:id="@+id/cardImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hollys_card"
+            app:layout_constraintBottom_toTopOf="@id/cardText"
+            app:layout_constraintStart_toStartOf="@id/storeText"
+            app:layout_constraintEnd_toEndOf="@id/storeText"
+            android:layout_marginBottom="5dp"
+            />
+
+        //쿠폰
+        <TextView
+            android:id="@+id/couponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="쿠폰"
+            app:layout_constraintBottom_toBottomOf="@id/stampText"
+            app:layout_constraintStart_toStartOf="@id/cakeRsvText"
+            app:layout_constraintEnd_toEndOf="@id/cakeRsvText"
+            />
+        <ImageView
+            android:id="@+id/couponImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/coupon"
+            app:layout_constraintBottom_toTopOf="@id/couponText"
+            app:layout_constraintStart_toStartOf="@id/cakeRsvText"
+            app:layout_constraintEnd_toEndOf="@id/cakeRsvText"
+            android:layout_marginBottom="5dp"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cake_round"
+            android:backgroundTint="@color/hollys_red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner"
+            android:layout_marginBottom="35dp"
+            >
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/cakeRsvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:text="홀케이크 예약"
+            app:layout_constraintBottom_toBottomOf="@id/hollysMallText"
+            app:layout_constraintStart_toEndOf="@id/storeText"
+            android:layout_marginStart="50dp"
+            />
+        <ImageView
+            android:id="@+id/cakeRsvImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cake_rsv"
+            app:layout_constraintBottom_toTopOf="@id/storeText"
+            app:layout_constraintStart_toStartOf="@id/cakeRsvText"
+            app:layout_constraintEnd_toEndOf="@id/cakeRsvText"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:src="@drawable/banner"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/smartOrder"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:backgroundTint="@color/hollys_red"
+        android:background="@drawable/menu_round"
+        app:layout_constraintTop_toTopOf="@id/delivery"
+        >
+        <TextView
+            android:id="@+id/smartOrderText1"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:text="스마트오더"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="@id/smartOrderText2"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintStart_toStartOf="@id/smartOrder"
+            />
+        <TextView
+            android:id="@+id/smartOrderText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:text="줄서지 않고 주문하세요"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/smartOrder"
+            app:layout_constraintStart_toStartOf="@id/smartOrder"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:id="@+id/smartOrderImage"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/smart_order"
+            app:layout_constraintEnd_toEndOf="@id/smartOrder"
+            app:layout_constraintBottom_toBottomOf="@id/smartOrder"
+            android:layout_marginEnd="13dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/delivery"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/menu_round"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/recommend"
+        >
+        <TextView
+            android:id="@+id/deliveryText1"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:text="딜리버리"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="@id/delivery"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="@id/delivery"
+            />
+        <TextView
+            android:id="@+id/deliveryText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:text="이제는 집에서 즐기는 할리스"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="@id/deliveryText1"
+            app:layout_constraintBottom_toBottomOf="@id/delivery"
+            app:layout_constraintStart_toStartOf="@id/delivery"
+            android:layout_marginTop="20dp"
+            />
+        <ImageView
+            android:id="@+id/deliveryImage"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/delivery"
+            app:layout_constraintEnd_toEndOf="@id/delivery"
+            app:layout_constraintBottom_toBottomOf="@id/delivery"
+            android:layout_marginEnd="20dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
