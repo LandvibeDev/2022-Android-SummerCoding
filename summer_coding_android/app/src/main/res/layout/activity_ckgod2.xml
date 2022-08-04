@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".ckgod.Ckgod2Activity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnTmp"
+        tools:listitem="@layout/item_view"
+        tools:itemCount="100"/>
+
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnTmp"
         android:layout_width="0dp"

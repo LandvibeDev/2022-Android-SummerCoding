@@ -3,10 +3,33 @@ package kr.co.landvibe.summer_coding_android.ckgod
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import kr.co.landvibe.summer_coding_android.ckgod.adapters.ItemListAdapter
+import kr.co.landvibe.summer_coding_android.ckgod.data.Item
 import kr.co.landvibe.summer_coding_android.databinding.ActivityCkgod2Binding
 
 class Ckgod2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityCkgod2Binding
+
+    val data: List<Item> = listOf(
+        Item("1", "고창국"),
+        Item("1", "고창국"),
+        Item("1", "고창국1"),
+        Item("1", "고창국1"),
+        Item("1", "고창2국"),
+        Item("1", "고창4국3"),
+        Item("1", "고창국"),
+        Item("1", "고창국"),
+        Item("1", "고창5국"),
+        Item("1", "고창국"),
+        Item("1", "고창2국"),
+        Item("1", "고창3국"),
+        Item("1", "고창국"),
+        Item("1", "고창5국"),
+        Item("1", "고창국"),
+        Item("1", "고6창국"),
+        Item("1", "고창국"),
+        Item("1", "고창국"),
+    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,5 +43,8 @@ class Ckgod2Activity : AppCompatActivity() {
             setResult(1500, intent)
             finish()
         }
+
+        binding.rvList.adapter = ItemListAdapter(data)
+
     }
 }
