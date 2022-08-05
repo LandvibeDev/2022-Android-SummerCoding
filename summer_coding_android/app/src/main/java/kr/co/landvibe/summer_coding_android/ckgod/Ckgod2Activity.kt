@@ -16,19 +16,6 @@ class Ckgod2Activity : AppCompatActivity() {
         Item("1", "고창국1"),
         Item("1", "고창국1"),
         Item("1", "고창2국"),
-        Item("1", "고창4국3"),
-        Item("1", "고창국"),
-        Item("1", "고창국"),
-        Item("1", "고창5국"),
-        Item("1", "고창국"),
-        Item("1", "고창2국"),
-        Item("1", "고창3국"),
-        Item("1", "고창국"),
-        Item("1", "고창5국"),
-        Item("1", "고창국"),
-        Item("1", "고6창국"),
-        Item("1", "고창국"),
-        Item("1", "고창국"),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
