@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/font_bmhannaprooft.otf.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/font/bmhannaprooft.otf"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_ckgod.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_ckgod.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/drawable_play.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/drawable/play.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_week2_leesc0893.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_week2_leesc0893.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_ckgod2.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_ckgod2.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_d11210920.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_d11210920.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/drawable_btn_background.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/drawable/btn_background.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_yesxon.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_yesxon.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_jjjoonngg.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_jjjoonngg.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_week2_slideshow_leesc0893.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_week2_slideshow_leesc0893.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/layout_activity_gok5959.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/layout/activity_gok5959.xml"
+    },
+    {
+        "merged": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/build/intermediates/merged_res/debug/drawable_round_border.xml.flat",
+        "source": "/Users/leeseungcheol/AndroidStudioProjects/2022-Android-SummerCoding/summer_coding_android/app/src/main/res/drawable/round_border.xml"
+    }
+]

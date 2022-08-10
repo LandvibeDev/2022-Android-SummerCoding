@@ -19,4 +19,9 @@
     <string name="edit_screen">화면 편집</string>
     <string name="won_unit">원</string>
 
+    <!-- 승철 -->
+    <string name="app_name_leesc0839">mySlideShow</string>
+    <string name="app_title">Silde Show</string>
+    <string name="button_makeSildeShow">슬라이드 쇼 만들기</string>
+
 </resources>
