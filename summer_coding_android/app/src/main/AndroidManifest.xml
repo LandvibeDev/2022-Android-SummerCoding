@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SummerCodingAndroid">
         <activity
+            android:name=".d11210920.adapters.ItemListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".d11210920.DATA.Item"
+            android:exported="false" />
+        <activity
             android:name=".yesxon.YesxonActivity"
             android:exported="false" />
         <activity

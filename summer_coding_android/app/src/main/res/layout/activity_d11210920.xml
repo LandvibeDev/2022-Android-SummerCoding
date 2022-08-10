@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".d11210920.D11210920Activity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dh_txt"
+        android:text="Recycler View Test"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/dh_rv">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/dh_rv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dh_txt"
+        tools:listitem="@layout/item_view"
+        tools:itemCount="30"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
