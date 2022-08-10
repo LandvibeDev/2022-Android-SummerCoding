@@ -10,7 +10,6 @@ import java.text.DecimalFormat
 
 
 class CkgodActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityCkgodBinding
     private lateinit var activityResultLauncher: ActivityResultLauncher<Intent>
 
@@ -23,10 +22,6 @@ class CkgodActivity : AppCompatActivity() {
     }
 
     private fun initView() {
-
-        // 고차 함수 = 람다를 파라미터로 받는 함수
-        // 람다 = 익명함수
-
         binding.run {
             activityResultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
                 when(result.resultCode) {
