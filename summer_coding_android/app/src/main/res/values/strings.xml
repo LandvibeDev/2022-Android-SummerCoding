@@ -18,5 +18,6 @@
     <string name="gruop_account_number">7979-42-42458</string>
     <string name="edit_screen">화면 편집</string>
     <string name="won_unit">원</string>
-
+    <string name="gcooter">GCOOTER</string>
+    <string name="money">지쿠터 요금 및 이용시간</string>
 </resources>
