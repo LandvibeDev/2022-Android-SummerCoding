@@ -13,11 +13,32 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/gcooter"
-        android:textColor="@color/green"
+
+        android:textColor="@color/green_gok"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="권혁준"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTV" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nameBTN"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="변경"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@id/nameTV"
+        app:layout_constraintTop_toBottomOf="@id/mainTV" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/thirdIV"
@@ -51,7 +72,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/blue">
+
+            android:background="@color/blue_gok">
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,7 +102,7 @@
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/gray"
+        android:backgroundTint="@color/gray_gok"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="GOLD 등급"
-                android:textColor="@color/green"
+                android:textColor="@color/green_gok"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/thirdTV" />
 
@@ -195,7 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/blue_gok"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/thirdCL">
