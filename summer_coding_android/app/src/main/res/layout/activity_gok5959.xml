@@ -13,11 +13,13 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/gcooter"
+
         android:textColor="@color/green_gok"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/nameTV"
@@ -70,7 +72,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:background="@color/blue_gok">
+
 
             <TextView
                 android:layout_width="wrap_content"
