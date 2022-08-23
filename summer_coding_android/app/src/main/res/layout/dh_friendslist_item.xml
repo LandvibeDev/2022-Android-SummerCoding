@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="15dp"
+    >
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/dh_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/dh_Name"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toEndOf="@+id/dh_profile"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:text="김동하">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

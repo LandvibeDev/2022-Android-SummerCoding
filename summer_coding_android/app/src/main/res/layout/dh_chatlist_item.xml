@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="15dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/profile"
+        android:id="@+id/dh_chatprofile"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dh_chatName"
+        app:layout_constraintStart_toEndOf="@+id/dh_chatprofile"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="채팅이름"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dh_chatContent"
+        app:layout_constraintStart_toEndOf="@+id/dh_chatprofile"
+        app:layout_constraintTop_toBottomOf="@+id/dh_chatName"
+        android:text="채팅내용"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
