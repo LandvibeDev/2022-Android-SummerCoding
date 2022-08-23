@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/page_friendlist"
+        android:enabled="true"
+        android:title="친구목록"
+        android:icon="@drawable/dh_friendslist"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/page_chatlist"
+        android:enabled="true"
+        android:title="채팅목록"
+        android:icon="@drawable/dh_chatlist"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

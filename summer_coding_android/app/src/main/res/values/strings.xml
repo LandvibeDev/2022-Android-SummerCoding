@@ -20,4 +20,6 @@
     <string name="won_unit">원</string>
     <string name="gcooter">GCOOTER</string>
     <string name="money">지쿠터 요금 및 이용시간</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
