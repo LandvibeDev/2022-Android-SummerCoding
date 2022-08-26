@@ -3,16 +3,17 @@ package kr.co.landvibe.summer_coding_android.ckgod.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import kr.co.landvibe.summer_coding_android.R
-import kr.co.landvibe.summer_coding_android.ckgod.data.Item
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import kr.co.landvibe.summer_coding_android.ckgod.api.data.User
 import kr.co.landvibe.summer_coding_android.databinding.ItemViewBinding
 
-interface ItemClickListener {
-    fun onItemClick(itemName: String)
+interface ItemListAdapterListener {
+    fun onItemClick()
 }
 
 // Adapter는 RecyclerView.Adapter를 상속받는다.
-class ItemListAdapter(private val itemList: List<Item>, private val listener: ItemClickListener) : RecyclerView.Adapter<ItemListAdapter.ItemViewHolder>() {
+class ItemListAdapter(private val itemList: List<User>, private val listener: ItemListAdapterListener) : RecyclerView.Adapter<ItemListAdapter.ItemViewHolder>() {
     // Adapter<.....> 데이터를 어떤 뷰로 바꿀지에 대한 뷰홀더를 넣어준다.
     // itemList : Adapter는 ViewHolder에 넣을 데이터를 가지고 있어야 한다.
 
@@ -35,15 +36,17 @@ class ItemListAdapter(private val itemList: List<Item>, private val listener: It
     override fun getItemCount(): Int = itemList.size
 
     inner class ItemViewHolder(private val binding: ItemViewBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: Item) { // onBindViewHolder에서 데이터를 전달받기 위한 함수 생성
+        fun bind(item: User) { // onBindViewHolder에서 데이터를 전달받기 위한 함수 생성
 
             // 받은 데이터를 뷰에 매칭
-            binding.tvName.text = item.name
-            binding.ivImage.setImageDrawable(itemView.context.getDrawable(item.image))
-
+            binding.tvName.text = item.userName
+            Glide.with(itemView)
+                .load(item.image)
+                .apply(RequestOptions().centerCrop().circleCrop())
+                .into(binding.ivImage)
 
             itemView.setOnClickListener {
-                listener.onItemClick(item.name)
+                listener.onItemClick()
             }
         }
     }
